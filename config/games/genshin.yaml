@@ -1,0 +1,34 @@
+game_name: "原神"
+game_short_name: "原神"
+developer: "米哈游 / HoYoverse"
+release_date: "2020-09-28"
+platform: "iOS / Android / PC / PS5 / Xbox Series X|S"  # PS4 版本已于 2026-04-08 停服
+
+topics:
+  - name: "玩法"
+    description: "战斗系统 / 元素反应 / 开放世界探索 / 秘境 / 深渊 / 剧情主线魔神任务 / 解谜"
+  - name: "商业化"
+    description: "祈愿抽卡 / 保底 / 氪金 / 月卡 / 纪行 / 原石定价 / 648 / 卡池含金量"
+  - name: "技术"
+    description: "优化 / 帧率 / 闪退 / bug / 加载 / 画质 / 服务器 / 兼容性 / 包体大小"
+  - name: "角色"
+    description: "立绘 / 建模 / 人设 / CV配音 / 角色外观 / 角色强度(非机制)"
+  - name: "运营"
+    description: "版本更新 / 活动内容 / 官方公告 / 补偿福利 / 兑换码 / 米哈游态度"
+  - name: "其他"
+    description: "前5类都不明显的 / 情怀 / 纯情绪宣泄 / IP联动 / 二创"
+
+versions:
+  - version: "6.5"
+    label: "『空月之歌·旋舞』逢归的谶羽"
+    date: "2026-04-08"  # 42天版本周期推算，待核对
+  - version: "6.6"
+    label: "『空月之歌·行律』虚空劫灰往世书"
+    date: "2026-05-20"
+  - version: "6.7"
+    label: "『空月之歌·谐谑』映夏！归乡？千灵节！"
+    date: "2026-07-01"
+
+meta:
+  gacha_system: "祈愿(Wish)——含软保底(约74抽起)与硬保底(90抽)，限定角色池50/50大小保底机制"
+  version_cycle_days: 42

@@ -1,0 +1,17 @@
+# 核心 LLM 调用
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# 数据处理与统计
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# 配置与进度
+PyYAML>=6.0
+tqdm>=4.65.0
+
+# 可视化与 notebook
+matplotlib>=3.7.0
+jupyter>=1.0.0
+ipykernel>=6.0.0

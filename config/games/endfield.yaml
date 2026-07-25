@@ -1,0 +1,49 @@
+game_name: "明日方舟：终末地"
+game_short_name: "终末地"
+developer: "鹰角网络"
+platform: "TapTap / App Store / Android"
+
+topics:
+  - name: "玩法"
+    description: "战斗系统 / 探索地图 / 基建生产 / 关卡设计 / 剧情主线 / 玩法难度"
+  - name: "商业化"
+    description: "抽卡机制 / 保底 / 氪金 / 月卡 / 通行证 / 福利 / 定价 / 648"
+  - name: "技术"
+    description: "优化 / 帧率 / 闪退 / bug / 加载 / 画质 / 服务器 / 兼容性"
+  - name: "角色"
+    description: "立绘 / 建模 / 人设 / CV配音 / 角色外观 / 战斗表现(非机制)"
+  - name: "运营"
+    description: "版本更新 / 活动内容 / 官方公告 / 补偿福利 / 鹰角态度 / 测试资格"
+  - name: "其他"
+    description: "前5类都不明显的 / 情怀 / 纯情绪宣泄 / IP联动"
+
+versions:
+  - version: "1.0"
+    label: "公测上线"
+    date: "2026-01-22"
+  - version: "1.1"
+    label: "新潮起，故渊离"
+    date: "2026-03-12"  # TODO: 补充实际版本日期
+  - version: "1.2"
+    label: "春晓时"
+    date: "2026-04-17"  # TODO: 补充实际版本日期
+  - version: "1.3"
+    label: "寻遗散记"
+    date: "2026-06-05"  # TODO: 补充实际版本日期
+  - version: "1.4"
+    label: "向渊行"
+    date: "2026-07-17"  # TODO: 补充实际版本日期
+
+data:
+  range_start: "2026-01-22"
+  range_end: "2026-07-04"
+  sources:
+    - platform: "TapTap"
+      files:
+        - "data/taptap_reviews_cleaned.csv"
+    - platform: "App Store"
+      files:
+        - "data/[明日方舟：终末地]2026年01月22日-2026年07月03日App Store总收入.csv"
+    - platform: "哔哩哔哩"
+      files:
+        - "data/b站内容趋势-2026-07-05.csv"
