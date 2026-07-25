@@ -44,7 +44,8 @@
 # 1. 安装依赖
 pip install -r requirements.txt
 
-# 2. 配置 API Key（DeepSeek）：复制模板后填入你的 key（请存为 UTF-8）
+# 2. 配置 API：复制模板后填入你的 key（请存为 UTF-8）
+#    默认用 DeepSeek，也支持任意 OpenAI 兼容服务商（OpenAI/Moonshot/智谱/本地 Ollama…），改 .env 即可
 cp .env.example .env
 
 # 3. 单条体验
@@ -69,7 +70,7 @@ jupyter notebook notebooks/demo.ipynb
 ```
 endfield/
 ├─ agent/                 # 核心逻辑（与游戏解耦）
-│  ├─ llm_client.py       # LLM 封装（DeepSeek，JSON 输出）
+│  ├─ llm_client.py       # LLM 封装（任意 OpenAI 兼容服务商，JSON 输出）
 │  ├─ config_loader.py    # 组装 prompt = 模板 + 游戏配置
 │  ├─ sentiment.py        # 情感分类（纯流程）
 │  └─ topics.py           # 议题分类（纯流程）
@@ -95,7 +96,7 @@ endfield/
 
 ## 七、成本估算（粗略量级）
 
-以 DeepSeek `deepseek-chat` 为例，单条评论走**两次**调用（情感 + 议题）：
+以 DeepSeek `deepseek-v4-flash` 为例，单条评论走**两次**调用（情感 + 议题）：
 
 - 输入：system prompt（约 1.3k tokens）+ 评论正文（截断 500 字），输出约几十 tokens
 - **单条约 ¥0.005–0.01；全量 2000+ 条约 ¥10–20**（按现价，量级供参考）

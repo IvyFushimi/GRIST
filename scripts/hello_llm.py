@@ -10,7 +10,7 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="deepseek-chat",
+    model="deepseek-v4-flash",
     messages=[
         {"role": "system", "content": "你是一个游戏行业的资深分析师。"},
         {"role": "user", "content": "结合联网搜索，用一句话评价《明日方舟：终末地》当前的市场表现。"}

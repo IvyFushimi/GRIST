@@ -13,7 +13,7 @@ client = OpenAI(
 review_text = "这游戏一定要暴死啊，评分又涨回去了。500一抽依然是单抽，10抽跟摆设一样。"
 
 response = client.chat.completions.create(
-    model="deepseek-chat",
+    model="deepseek-v4-flash",
     messages=[
         {"role": "system", "content": """你是游戏评论情感分析师。
 对玩家评论返回JSON格式：
