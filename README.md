@@ -1,4 +1,4 @@
-# 游戏评论洞察 Agent（Game Review Insight Agent）
+# 游戏评论洞察 Agent - GRIST（game review insight sentiment topics agent）
 
 > 输入一堆玩家评论，自动产出「情感 + 议题 + 群体差异」的结构化洞察，把散乱的舆情变成可决策的数据。
 
